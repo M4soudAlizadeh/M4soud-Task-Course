@@ -1,3 +1,3 @@
 # Forkify tutarial Course Project
 
-Search Recipe App
+Search Recipe Application
