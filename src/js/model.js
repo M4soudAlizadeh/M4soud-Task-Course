@@ -111,7 +111,8 @@ const getBookmarksFromLocal = function () {
   console.log(storage);
   console.log(state.bookMarks);
   if (storage !== null) {
-    JSON.parse(storage);
+    // JSON.parse(storage);
+    state.bookMarks = storage;
   }
   // if (storage) state.bookMarks = JSON.parse(storage);
 };
