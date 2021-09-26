@@ -108,13 +108,8 @@ clearBookmarks();
 
 const getBookmarksFromLocal = function () {
   const storage = localStorage.getItem('bookmarks');
-  console.log(storage);
-  console.log(state.bookMarks);
-  if (storage !== null) {
-    // JSON.parse(storage);
-    state.bookMarks = storage;
-  }
-  // if (storage) state.bookMarks = JSON.parse(storage);
+
+  if (storage) state.bookMarks = JSON.parse(storage);
 };
 getBookmarksFromLocal();
 
